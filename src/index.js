@@ -12,10 +12,10 @@ var servers
 var lock = {}
 
 const TEN_MEGA_BYTE = 1024 * 1024 * 10
-const ONE_MINUTE = 60 * 1000
+const TWO_MINUTES = 60 * 1000 * 2
 const options = {
   maxBuffer: TEN_MEGA_BYTE,
-  timeout: ONE_MINUTE
+  timeout: TWO_MINUTES
 }
 
 /**
